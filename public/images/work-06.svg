@@ -1,0 +1,8 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="1100" fill="#e8e4dc"/>
+<circle cx="432" cy="510" r="138" fill="#111" opacity="0.88"/>
+<rect x="154" y="474" width="420" height="388" rx="36" fill="#b89b5e" opacity="0.92"/>
+<path d="M120 920 C260 760, 430 1040, 780 840" stroke="#111" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+<text x="70" y="1030" fill="#b89b5e" font-family="Georgia, serif" font-size="72" letter-spacing="10">YOSO 06</text>
+<text x="70" y="92" fill="#111" font-family="Arial, sans-serif" font-size="18" letter-spacing="8">DESIGN WITH RESPONSE</text>
+</svg>
