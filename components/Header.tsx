@@ -1,6 +1,8 @@
+ codex/-yoso-o1ydi8
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
+
 
 const navItems = [
   ["首页", "#home"],
@@ -11,6 +13,7 @@ const navItems = [
 ];
 
 export function Header() {
+ codex/-yoso-o1ydi8
   const { scrollY } = useScroll();
   const backgroundColor = useTransform(scrollY, [0, 120], ["rgba(8, 8, 8, 0.26)", "rgba(8, 8, 8, 0.72)"]);
   const boxShadow = useTransform(scrollY, [0, 120], ["0 0 0 rgba(0,0,0,0)", "0 18px 60px rgba(0,0,0,0.32)"]);
@@ -46,5 +49,5 @@ export function Header() {
         </a>
       </motion.nav>
     </motion.header>
-  );
+
 }

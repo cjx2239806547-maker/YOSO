@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 :root {
+ codex/-yoso-o1ydi8
   color: #f6f3ee;
   background: #050505;
+
 }
 
 * {
@@ -13,12 +15,15 @@
 
 html {
   scroll-behavior: smooth;
+ codex/-yoso-o1ydi8
   background: #050505;
+
 }
 
 body {
   margin: 0;
   min-height: 100vh;
+codex/-yoso-o1ydi8
   overflow-x: hidden;
   background:
     radial-gradient(circle at 50% -10%, rgba(184, 155, 94, 0.18), transparent 26rem),
@@ -111,13 +116,14 @@ body {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
-}
+
 
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
 
+ codex/-yoso-o1ydi8
   *,
   *::before,
   *::after {
@@ -125,5 +131,6 @@ body {
     animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+
   }
 }

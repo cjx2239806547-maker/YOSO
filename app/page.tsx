@@ -1,3 +1,4 @@
+ codex/-yoso-o1ydi8
 "use client";
 
 import Image from "next/image";
@@ -86,10 +87,10 @@ export default function Home() {
               </motion.article>
             ))}
           </motion.div>
-        </div>
-      </section>
+
 
       <section id="about" className="section-shell py-24 sm:py-32">
+ codex/-yoso-o1ydi8
         <div className="grid gap-10 rounded-[2.8rem] border border-ink/10 bg-white/60 p-8 shadow-[0_30px_100px_rgba(13,13,13,0.08)] backdrop-blur sm:p-12 lg:grid-cols-[0.85fr_1.15fr] lg:p-16">
           <SectionTitle eyebrow="About" title="有所取舍，才有所抵达。" />
           <motion.div
@@ -136,5 +137,5 @@ export default function Home() {
         </div>
       </section>
     </motion.main>
-  );
+
 }
