@@ -6,7 +6,9 @@
 
 - 项目名称：`yoso-studio-site`
 - 项目类型：设计工作室官网 / 单页落地页
-- 技术栈：Next.js App Router + React + TypeScript + Tailwind CSS
+ codex/-yoso-o1ydi8
+- 技术栈：Next.js App Router + React + TypeScript + Tailwind CSS + framer-motion
+
 - 视觉方向：黑白灰极简、现代高级、留白充足，使用暖金色作为局部点缀
 - 当前页面模块：首页首屏、服务 Services、案例 Works、关于 About、联系 Contact
 
@@ -21,7 +23,11 @@
 │   ├── layout.tsx               # 根布局、字体、站点 metadata
 │   └── page.tsx                 # 官网主页面：首页、服务、案例、关于、联系
 ├── components/
-│   ├── Header.tsx               # 顶部导航组件
+ codex/-yoso-o1ydi8
+│   ├── CursorGlow.tsx           # 鼠标跟随光效组件
+│   ├── Header.tsx               # 顶部悬浮玻璃拟态导航组件
+│   ├── Hero.tsx                 # 首页首屏沉浸式 Hero 组件
+
 │   ├── SectionTitle.tsx         # 通用区块标题组件
 │   └── site-data.ts             # 服务、案例、联系方式等可替换数据
 ├── public/
@@ -99,6 +105,10 @@ public/images/work-01.svg
 当前项目生成或维护的主要结果文件包括：
 
 - `app/page.tsx`：最终官网页面结构与模块布局
+codex/-yoso-o1ydi8
+- `components/Hero.tsx`：首屏 Hero、动态背景、逐字标题、CTA 与滚动提示
+- `components/CursorGlow.tsx`：鼠标跟随光效
+
 - `app/globals.css`：最终全局视觉样式、滚动淡入动画、基础背景效果
 - `components/site-data.ts`：可复用数据源，决定服务、案例、联系方式展示内容
 - `public/images/work-*.svg`：当前案例瀑布流使用的占位作品图
@@ -187,6 +197,8 @@ app/globals.css
 
 - 保持图片继续从 `public/images` 读取，便于非技术人员替换资源。
 - 服务、案例、联系方式等结构化内容尽量维护在 `components/site-data.ts`。
-- 页面组件已经拆分为 Header、SectionTitle 与数据文件，后续可继续拆分 `Hero`、`Services`、`Works`、`About`、`Contact` 组件。
+ codex/-yoso-o1ydi8
+- 页面组件已经拆分为 Header、Hero、CursorGlow、SectionTitle 与数据文件，后续可继续拆分 `Hero`、`Services`、`Works`、`About`、`Contact` 组件。
+
 - 如果未来案例内容增多，建议将 `works` 拆成独立 JSON 或 CMS 数据源。
 - 如果要上线真实品牌官网，请将占位 SVG 图片替换为真实作品图，并更新联系方式。

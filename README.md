@@ -1,6 +1,6 @@
 # YOSO·有所设计工作室官网
-
-基于 Next.js + Tailwind CSS 构建的黑白极简设计工作室官网，包含首页、服务、案例、关于与联系模块。
+codex/-yoso-o1ydi8
+基于 Next.js + Tailwind CSS + framer-motion 构建的沉浸式黑白极简设计工作室官网，包含首页、服务、案例、关于与联系模块。
 
 ## 本地运行
 
